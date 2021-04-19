@@ -10,9 +10,24 @@
             align-items: center;
         }
     }
+    .title {
+        &_left {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 80px;
+    }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 650px) {
     .header {
         &__logo {
             width: 180px;
@@ -25,6 +40,10 @@
         width: 130px;
         font-size: 10px;
         &_main {
+            width: 300px;
+            font-size: 14px;
+        }
+        &_submit {
             width: 300px;
             font-size: 14px;
         }
@@ -66,6 +85,17 @@
             font-size: 20px;
         }
     }
+    .title {
+        &_left {
+            font-size: 24px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
 }
 
 @media (max-width: 525px) {
@@ -79,6 +109,17 @@
     }
     .button {
         margin-top: 10px;
+    }
+    .title {
+        &_left {
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 14px;
+            margin-top: 16px;
+        }
     }
 }
 
@@ -96,7 +137,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
     .header {
         &__phone {
             font-size: 12px;
@@ -132,6 +173,10 @@
             width: 260px;
             font-size: 12px;
         }
+        &_submit {
+            width: 220px;
+            font-size: 12px;
+        }
     }
     .advantages {
         &__header {
@@ -139,6 +184,23 @@
         }
         &__item {
             max-width: 260px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 14px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 12px;
+            margin-top: 16px;
+        }
+    }
+    .feed-form {
+        width: 220px;
+        input {
+            font-size: 12px;
         }
     }
 }
